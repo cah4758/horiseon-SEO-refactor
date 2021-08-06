@@ -8,6 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +33,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Renaming the nav element to match html change */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,16 +51,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero /* img */{
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
